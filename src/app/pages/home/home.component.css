@@ -8,6 +8,12 @@
   border: 1px solid #9a9a9a;
 }
 
+.texto-categoria {
+  color: #e6a800;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
 .icone-bolinha {
   font-size: 0.55rem;
   color: #ffffff;

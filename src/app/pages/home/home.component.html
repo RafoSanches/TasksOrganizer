@@ -26,9 +26,10 @@
           <i class="bi bi-circle-fill me-1 icone-bolinha"></i>
           {{ tarefa.nome }}
         </p>
-        <p class="text-muted small mb-2">
-          Vencimento {{ tarefa.data | date:'EEEE, MMMM d, yyyy':'UTC' }}
+        <p class="text-muted small mb-1">
+          Vencimento {{ tarefa.data | date:"EEEE, d 'de' MMMM 'de' yyyy":'UTC' }}
         </p>
+        <p class="texto-categoria mb-2">{{ tarefa.categoria }}</p>
         <div class="d-flex gap-2">
           <button class="btn btn-warning btn-sm" (click)="editar(tarefa.id)">
             Editar <i class="bi bi-pencil-square"></i>
