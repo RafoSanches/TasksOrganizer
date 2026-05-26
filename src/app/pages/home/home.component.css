@@ -1,0 +1,15 @@
+.cabecalho-secundario {
+  background-color: #b4b4b4;
+}
+
+.cartao-tarefa {
+  width: 90%;
+  max-width: 480px;
+  border: 1px solid #9a9a9a;
+}
+
+.icone-bolinha {
+  font-size: 0.55rem;
+  color: #ffffff;
+  vertical-align: middle;
+}

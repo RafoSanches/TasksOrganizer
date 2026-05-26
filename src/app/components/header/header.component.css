@@ -1,0 +1,9 @@
+nav {
+  background-color: #0c2133;
+  min-height: 48px;
+}
+
+.icone-menu {
+  text-decoration: none;
+  cursor: pointer;
+}

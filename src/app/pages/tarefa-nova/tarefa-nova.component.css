@@ -1,0 +1,23 @@
+.cabecalho-secundario {
+  background-color: #0d0147;
+}
+
+.rotulo-campo {
+  color: #200f75;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.campo-formulario {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  background-color: transparent;
+  padding-left: 0;
+}
+
+.campo-formulario:focus {
+  box-shadow: none;
+  border-bottom-color: #353a8f;
+  background-color: transparent;
+}
